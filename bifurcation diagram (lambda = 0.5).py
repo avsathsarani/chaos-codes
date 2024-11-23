@@ -25,6 +25,7 @@ for i in range(iterations):
 
 plt. xlim(2.5,4)
 plt.title("Bifurcation Diagram")
+plt.axhline(0.5,color = 'b',linestyle = '--',label ='Stable Fixed Point at x = 0.5')
 plt.xlabel("r")
 plt.ylabel("x")
 plt.show()
